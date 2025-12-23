@@ -1,7 +1,7 @@
 from google import genai
 from google.genai.types import Content, Part
 
-client = genai.Client(api_key="AIzaSyAOOJTOFv_gSVbVwlaL806YT0eh2SfQlBg")
+client = genai.Client(api_key="")
 
 command = """
 Your chat history here...
@@ -43,3 +43,4 @@ and while you should be savage, do not use bad words.
 )
 
 print(response.text)
+
